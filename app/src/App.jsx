@@ -5,7 +5,6 @@ import Footer from './components/Footer/Footer'
 import Home from './pages/Home'
 import Recipes from './pages/Recipes'
 import News from './pages/News'
-import Calculator from './pages/Calculator'
 import FAQ from './pages/FAQ'
 import Ingredients from './pages/Ingredients'
 
@@ -19,7 +18,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/recipes" element={<Recipes />} />
             <Route path="/news" element={<News />} />
-            <Route path="/calculator" element={<Calculator />} />
+            
             <Route path="/faq" element={<FAQ />} />
             <Route path="/ingredients" element={<Ingredients />} />
           </Routes>

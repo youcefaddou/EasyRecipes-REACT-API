@@ -37,11 +37,6 @@ export default function Header() {
               </Link>
             </li>
             <li>
-              <Link to="/calculator" className="nav-link" onClick={() => setIsMenuOpen(false)}>
-                Calculateur
-              </Link>
-            </li>
-            <li>
               <Link to="/news" className="nav-link" onClick={() => setIsMenuOpen(false)}>
                 Actualités
               </Link>

@@ -19,11 +19,6 @@ export default function Footer() {
                                     Catégories
                                 </Link>
                             </li>
-                            <li>
-                                <Link to="/calculator" className="footer-link">
-                                    Calculateur
-                                </Link>
-                            </li>
                         </ul>
                     </div>
 
